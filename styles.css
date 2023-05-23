@@ -1,0 +1,55 @@
+body {
+    background-image: url("./to\ do\ list.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Заголовок сторінки */
+h1 {
+    font-size: 34px;
+    color: #080808;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Вибір дня тижня */
+#daySelect {
+    display: block;
+    width: 213px;
+    margin: 0 auto 10px auto;
+    padding: 5px;
+}
+
+/* Текстове поле для додавання справи */
+#taskInput {
+    display: block;
+    width: 200px;
+    margin: 0 auto 10px auto;
+    padding: 5px;
+}
+
+/* Кнопка додавання */
+#addButton {
+    display: block;
+    width: 213px;
+    margin: 0 auto 10px auto;
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Список справ */
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Стилі для окремих справ */
+#taskList li {
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+}

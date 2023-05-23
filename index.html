@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Список справ</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <h1>Список справ</h1>
+    <select id="daySelect">
+        <option value="" selected disabled>Виберіть день тижня</option>
+        <option value="1">Понеділок</option>
+        <option value="2">Вівторок</option>
+        <option value="3">Середа</option>
+        <option value="4">Четвер</option>
+        <option value="5">Пʼятниця</option>
+        <option value="6">Субота</option>
+        <option value="0">Неділя</option>
+    </select>
+    <input type="text" id="taskInput" placeholder="Додати нову справу">
+    <button id="addButton">Додати</button>
+    <ul id="taskList"></ul>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
