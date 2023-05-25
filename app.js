@@ -1,5 +1,3 @@
-// app.js
-
 // Клас, що представляє окрему справу
 class TodoItem {
   constructor(description) {

@@ -44,6 +44,8 @@ h1 {
 #taskList {
     list-style-type: none;
     padding: 0;
+    width: 14%;
+    margin-left: 43%;
 }
 
 /* Стилі для окремих справ */
